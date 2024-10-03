@@ -1,3 +1,4 @@
 ROSETTA_CRASH.log
 .vscode
 *.png
+.venv

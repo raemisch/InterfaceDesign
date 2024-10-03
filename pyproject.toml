@@ -1,0 +1,18 @@
+[project]
+name = "instadeep"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8.16"
+dependencies = [
+    "biopython>=1.83",
+    "ipython>=8.12.3",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "py3dmol>=2.4.0",
+    "pyrosetta",
+    "requests>=2.32.3",
+]
+
+[tool.uv.sources]
+pyrosetta = { path = "../../../Downloads/pyrosetta-2024.15+release.d972b59c53-cp38-cp38-macosx_12_0_arm64.whl" }
